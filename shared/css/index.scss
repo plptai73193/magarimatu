@@ -1,0 +1,93 @@
+.key{
+	position: relative;
+	.ttl{
+		position: absolute;
+		top: 153px;
+		left: 229px;
+	}
+	&:after{
+		content: '';
+		width: 202px;
+		height: 212px;
+		background: url('../img/index/foot.png');
+		position: absolute;
+		bottom: -138px;
+		left: 510px;
+	}
+}
+
+#sec1{
+	background: url('../img/index/sec1_bg.png') no-repeat bottom center;
+	background-size: auto;
+	padding-bottom: 100px;
+	h3.ttl{
+		margin-top: 70px;
+		margin-left: -30px;
+	}
+	.news{
+		margin-top: -100px;
+		.newsItem{
+			a{
+				display: block;
+				text-decoration: none;
+			}
+			.featureImg{
+				img{
+					border-radius: 15px;
+					border: 1px solid #1c8f80;
+					overflow: hidden;
+				}
+			}
+			.date{
+				color: #0f9980;
+				font-size: 12px;
+			}
+			.newsTitle{
+				color: #0f9980;
+				font-size: 15px;
+				font-weight: bold;
+			}
+		}
+		.latestNews{
+			margin-left: 60px;
+			width: 480px;
+			float: left;
+		}
+		.Newnews{
+			float: right;
+			width: 420px;
+			padding-left: 30px;
+			.newsItem{
+				width: 180px;
+				margin-right: 30px;
+				float: left;
+				margin-bottom: 12px;
+				&:nth-child(even){
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.sec1Button{
+		margin-top: 48px;
+		margin-left: 60px;
+		margin-bottom: 60px;
+	}
+	.someKindofBanner{
+		margin-left: 60px;
+	    width: 480px;
+	    float: left;
+		img{
+			border-radius: 15px;
+		}
+	}
+	.Twitter{
+		float: right;
+		width: 420px;
+		padding-left: 30px;
+		img{
+			border-radius: 15px;
+		}
+	}
+
+}
